@@ -1,0 +1,135 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  margin: 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url(https://images.unsplash.com/photo-1518693800412-ad92111a1d46?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+  background-repeat: repeat;
+  background-size: cover;
+  font-size: 18px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+
+
+h1 {
+  font-weight: bolder;
+  font-size: 3em;
+  margin: 0px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 200px;
+  color: rgb(0, 153, 255);
+
+}
+
+
+.container {
+  width: 100%;
+  height: 490px;
+  margin: auto;
+  display: block;
+  background-color: rgba(255, 255, 0, 0);
+  border-radius: 25px;
+  padding: 15px;
+  margin-bottom: 590px;
+}
+
+
+
+.container-login {
+  width: 70%;
+  margin: auto;
+  display: block;
+  margin-top: 30px;
+}
+
+label {
+  width: 100%;
+  display: inline-block;
+  padding: 0px 0px 5px 5px;
+  margin-top: 20px;
+  font-size: 18px;
+  color: rgb(0, 153, 255);
+
+}
+
+input {
+  border: 0px none;
+  width: 94%;
+  border-radius: 40px;
+  height: 25px;
+  padding: 5px 5%;
+  font-size: 15px;
+  font-family: inherit;
+  color: #222;
+}
+
+button {
+  width: 100%;
+  background-color: rgb(0, 153, 255);
+  border: 2px solid rgb(0, 153, 255);
+  color: #fff;
+  border-radius: 40px;
+  height: 50px;
+  font-size: 30px;
+  cursor: pointer;
+
+}
+
+.footer a {
+  font-size: 16px;
+  margin: 10px;
+  text-align: center;
+  color: rgb(0, 153, 255);
+  display: block;
+}
+
+.footer a:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.sign {
+  border-radius: 70px;
+  width :70%;
+  margin-left: 90px;
+}
+
+
+.signup {
+  padding: 70px 50px;
+  text-align: center;
+  width: 90%;
+  display: none;
+}
+
+[type=text] {
+  display: block;
+  margin:  auto;
+  width: 80%;
+  height: 60px;
+  margin-bottom: 10px
+}
+
+.check{
+  color:rgb(0, 153, 255);
+  margin-right: 1;
+  text-align: none;
+}
+[type=checkbox] {
+  display: block;
+  margin-right: 500px;
+}
+#account{
+  cursor: pointer;
+  color:rgb(0, 153, 255);
+  padding: 10px;
+  text-align: center;
+
+}
+span{
+  color:rgb(0, 153, 255);
+}
+#check{
+  margin-bottom: -10%;
+}

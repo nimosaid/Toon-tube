@@ -1,0 +1,210 @@
+nav li {
+  background-color: yellow !important;
+};
+
+.slide-container {
+  width: 943px;
+  height: 492px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: inherit;
+  text-align: center;
+}
+.container-fluid {
+  background-color: yellow;
+}
+.image-container {
+  width: 943px;
+  height: 600px;
+  position:relative;
+  transition: left 2s;
+  -webkit-transition: left 2s;
+  -moz-transition: left 2s;
+  -o-transition: left 2s;
+}
+.slider-image {
+  float: left;
+  margin: 0px;
+  padding: 0px;
+}
+
+#slider-image-1:target ~ .image-container{
+  left: 0px;
+}
+#slider-image-2:target ~ .image-container{
+  left: -943px;
+}
+#slider-image-3:target ~ .image-container{
+  left: -1886px;
+}
+#slider-image-4:target ~ .image-container{
+  left: -2829px;
+}
+#slider-image-5:target ~ .image-container{
+  left: -3772px;
+}
+#slider-image-6:target ~ .image-container{
+  left: -4715px;
+}
+#slider-image-7:target ~ .image-container{
+  left: -5658px;
+}
+#slider-image-8:target ~ .image-container{
+  left: -6601px;
+}
+.summary{
+  font-style: italic;
+}
+.container{
+  background-color: blue;
+}
+.container-fluid{
+  background-color: yellow;
+}
+
+
+/* // romance /// */
+
+/* .card_flipper { */
+  background-color: blue;
+  text-align: center;
+  color: white;
+}
+/* .card_front { */
+  background-color: yellow;
+  color: green;
+}
+/* .card_lst li { */
+    float: left;
+    position: relative;
+    width: 210px;
+    height: 210px;
+    margin: 0 15px 15px 0;
+}
+/* li { */
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+/* body, input, textarea, select, button, table { */
+    font-size: 12px;
+    font-family: 'hind','simhei',verdana,Helvetica,sans-serif;
+}
+/* .card_item { */
+    display: block;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+/* a { */
+    color: #000;
+    text-decoration: none;
+}
+/* div { */
+    display: block;
+}
+
+/* .card_item .card_front { */
+    z-index: 10;
+    opacity: 1;
+}
+/* .card_item .card_front, .card_item .card_back { */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    transition: .3s;
+}
+/* img { */
+    vertical-align: top;
+}
+/* .card_item .info { */
+    position: absolute;
+    top: 14px;
+    left: 18px;
+    width: 157px;
+    height: 178px;
+}
+/* .card_item .info .subj { */
+    width: 157px;
+    font-size: 18px;
+    line-height: 18px;
+    padding-top: 5px;
+    font-weight: normal;
+    font-family: 'hind_m','simhei',verdana,Helvetica,sans-serif;
+}
+/* .card_item .info .grade_area { */
+    height: 17px;
+    margin: 3px 0 0 -1px;
+}
+/* p { */
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+/* .card_item .info .icon_area { */
+    margin: 9px 0 0 -2px;
+}
+/* .card_item .genre { */
+    position: absolute;
+    left: 18px;
+    bottom: 15px;
+    line-height: 16px;
+}
+/* .genre.g_romance { */
+    color: #fd337f;
+}
+/* .genre { */
+    font-size: 14px;
+}
+/* .card_item .card_back.g_romance { */
+    background: #fd337f;
+}
+/* .card_item .card_back { */
+    opacity: 0;
+}
+/* .card_item .card_back .info { */
+    overflow: hidden;
+    color: #fff;
+}
+/* .card_item .info { */
+    position: absolute;
+    top: 14px;
+    left: 18px;
+    width: 157px;
+    height: 178px;
+}
+/* h3 { */
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+/* .card_item .card_back .info .author { */
+    margin-top: 5px;
+    padding: 0;
+    font-size: 13px;
+}
+/* .card_item .card_back .info .line { */
+    display: block;
+    width: 16px;
+    height: 1px;
+    margin: 12px 0 15px;
+    background: #fff;
+    opacity: .5;
+}
+/* .card_item .card_back .info .summary { */
+    font-size: 13px;
+    line-height: 15px;
+}
+
+/* // romance /// */
+/* .card_item .card_front { */
+    z-index: 10;
+    opacity: 1;
+}
